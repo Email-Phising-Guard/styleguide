@@ -9,6 +9,8 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +27,25 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header></header>
+        <header className="flex justify-between">
+          <div>
+            <span>Email Phising Guard</span>
+          </div>
+          <nav className="flex gap-2">
+            <Link href="/logo">
+              <Button variant="ghost">Logo</Button>
+            </Link>
+            <Link href="/color">
+              <Button variant="ghost">Colors</Button>
+            </Link>
+            <Link href="/graphics-color">
+              <Button variant="ghost">Graphics and Icon</Button>
+            </Link>
+            <Link href="/typography">
+              <Button variant="ghost">Typography</Button>
+            </Link>
+          </nav>
+        </header>
         {children}
       </body>
     </html>
