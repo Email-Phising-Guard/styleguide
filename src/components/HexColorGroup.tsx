@@ -10,6 +10,11 @@ export default function HexColorGroup() {
         hexCode="#020817"
         colorName="Midnight Black"
       />
+      <HexColor
+        variant="destructive"
+        hexCode="#ef4444"
+        colorName="Danger Red"
+      />
     </div>
   );
 }
