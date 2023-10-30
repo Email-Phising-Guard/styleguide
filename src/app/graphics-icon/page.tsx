@@ -5,7 +5,7 @@ import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Switch } from "@/components/ui/switch";
 import { Textarea } from "@/components/ui/textarea";
-import { ChevronLeft, Settings } from "lucide-react";
+import { AlertCircle, CheckCircle2, ChevronLeft, Settings } from "lucide-react";
 
 export default function GraphicIconsPage() {
   return (
@@ -16,7 +16,7 @@ export default function GraphicIconsPage() {
       </section>
       <section className="my-10">
         <h2 className="text-4xl font-bold mb-3">Icons</h2>
-        <div className="flex gap-5 items-center justify-center">
+        <div className="flex gap-5 items-end justify-center">
           <div className="flex flex-col gap-2 items-center p-5">
             <Button className="p-1" variant="ghost" size="icon">
               <Settings className="w-10 h-10" />
@@ -28,6 +28,18 @@ export default function GraphicIconsPage() {
               <ChevronLeft className="w-10 h-10" />
             </Button>
             <span>Back arrow</span>
+          </div>
+          <div className="flex flex-col gap-2 items-center p-5">
+            <Button className="p-1" variant="ghost" size="icon">
+              <AlertCircle className="w-10 h-10" stroke="red" />
+            </Button>
+            <span>Incorrect icon</span>
+          </div>
+          <div className="flex flex-col gap-2 items-center p-5">
+            <Button className="p-1" variant="ghost" size="icon">
+              <CheckCircle2 className="w-10 h-10" stroke="green" />
+            </Button>
+            <span>Correct icon</span>
           </div>
         </div>
       </section>
