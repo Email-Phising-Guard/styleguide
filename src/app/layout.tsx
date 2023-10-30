@@ -38,7 +38,7 @@ export default function RootLayout({
             <Link href="/color">
               <Button variant="ghost">Colors</Button>
             </Link>
-            <Link href="/graphics-color">
+            <Link href="/graphics-icon">
               <Button variant="ghost">Graphics and Icon</Button>
             </Link>
             <Link href="/typography">
