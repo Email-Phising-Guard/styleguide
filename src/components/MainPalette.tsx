@@ -43,25 +43,25 @@ export default function MainPalette() {
             darkMode={true}
             variant="primary"
             hexCode="#3b82f6"
-            colorName="Navy Blue"
+            colorName="Midnight Blue"
           />
           <HexColor
             darkMode={true}
             variant="secondary"
             hexCode="#1e293b"
-            colorName="Dove Grey"
+            colorName="Charcoal Grey"
           />
           <HexColor
             darkMode={true}
             variant="foreground"
             hexCode="#f8fafc"
-            colorName="Midnight Black"
+            colorName="Frosted Silver"
           />
           <HexColor
             darkMode={true}
             variant="destructive"
             hexCode="#7f1d1d"
-            colorName="Danger Red"
+            colorName="Crimson Red"
           />
         </HexColorGroup>
       </section>
