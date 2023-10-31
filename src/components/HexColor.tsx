@@ -1,20 +1,28 @@
+type VariantValues = "primary" | "secondary" | "foreground" | "destructive";
+const variants: Record<VariantValues, string> = {
+  primary: "bg-primary",
+  secondary: "bg-secondary",
+  foreground: "bg-foreground",
+  destructive: "bg-destructive",
+};
+
 export default function HexColor({
-  darkMode,
+  darkMode = false,
   variant,
   hexCode,
   colorName,
 }: {
   darkMode: boolean;
-  variant: string;
+  variant: VariantValues;
   hexCode: string;
   colorName: string;
 }) {
   return (
     <div className="mx-auto text-center">
       <div
-        className={`w-32 h-32 rounded-full ${
-          darkMode ? "dark" : ""
-        } bg-${variant}`}
+        className={`w-32 h-32 rounded-full ${darkMode ? "dark" : ""} ${
+          variants[variant]
+        }`}
       ></div>
       <p
         className={`font-semibold tracking-wide mt-2 text-foreground ${
