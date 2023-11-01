@@ -1,14 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Lato } from "next/font/google";
 import "./globals.css";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
+
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -27,9 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="flex justify-between">
+        <header className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto p-5 gap-5">
           <div>
-            <span>Email Phising Guard</span>
+            <span className="text-xl font-bold">Email Phising Guard</span>
           </div>
           <nav className="flex gap-2">
             <Link href="/logo">
@@ -38,8 +31,8 @@ export default function RootLayout({
             <Link href="/color">
               <Button variant="ghost">Colors</Button>
             </Link>
-            <Link href="/graphics-icon">
-              <Button variant="ghost">Graphics and Icon</Button>
+            <Link href="/icon">
+              <Button variant="ghost">Icons</Button>
             </Link>
             <Link href="/typography">
               <Button variant="ghost">Typography</Button>
