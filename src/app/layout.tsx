@@ -1,14 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
+
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -38,8 +31,8 @@ export default function RootLayout({
             <Link href="/color">
               <Button variant="ghost">Colors</Button>
             </Link>
-            <Link href="/graphics-icon">
-              <Button variant="ghost">Graphics and Icon</Button>
+            <Link href="/icon">
+              <Button variant="ghost">Icons</Button>
             </Link>
             <Link href="/typography">
               <Button variant="ghost">Typography</Button>

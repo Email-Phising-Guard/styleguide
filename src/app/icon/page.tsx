@@ -7,7 +7,7 @@ import { Switch } from "@/components/ui/switch";
 import { Textarea } from "@/components/ui/textarea";
 import { AlertCircle, CheckCircle2, ChevronLeft, Settings } from "lucide-react";
 
-export default function GraphicIconsPage() {
+export default function IconsPage() {
   return (
     <main className="max-w-4xl mx-auto p-10">
       <section className="py-10">
