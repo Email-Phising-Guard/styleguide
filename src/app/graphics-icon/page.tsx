@@ -9,105 +9,149 @@ import { AlertCircle, CheckCircle2, ChevronLeft, Settings } from "lucide-react";
 
 export default function GraphicIconsPage() {
   return (
-    <main className="max-w-4xl mx-auto mt-10 p-5">
-      <section className="mb-10">
-        <h2 className="text-4xl font-bold mb-3">Graphics</h2>
-        <div></div>
-      </section>
-      <section className="my-10">
-        <h2 className="text-4xl font-bold mb-3">Icons</h2>
+    <main className="max-w-4xl mx-auto p-10">
+      <section className="py-10">
+        <h3 className="text-3xl font-bold mb-3">Clickable Icons</h3>
+        <p className=" mb-3">
+          Clickable icons will be large (102px by 102px) to ensure that they
+          will be able to easily clicked. Visible hover states will be added to
+          the buttons to show feedback to the user that they can click on them.
+          Hover over the buttons to check it out.
+        </p>
         <div className="flex gap-5 items-end justify-center">
           <div className="flex flex-col gap-2 items-center p-5">
-            <Button className="p-1" variant="ghost" size="icon">
-              <Settings className="w-10 h-10" />
+            <Button variant="ghost" className="w-24 h-24">
+              <Settings className="w-20 h-20" />
             </Button>
             <span>Settings Icon</span>
           </div>
           <div className="flex flex-col gap-2 items-center p-5">
-            <Button className="p-1" variant="ghost" size="icon">
-              <ChevronLeft className="w-10 h-10" />
+            <Button variant="ghost" className="w-24 h-24">
+              <ChevronLeft className="w-20 h-20" />
             </Button>
             <span>Back arrow</span>
           </div>
+        </div>
+      </section>
+      <section className="py-10">
+        <h3 className="text-3xl font-bold mb-3">Visual Icons</h3>
+        <p className=" mb-3">
+          Visual icons will be 32px by 32px to ensure that they will be easily
+          identifiable. The icons will have a padding of 5px all around to
+          prevent the icons from being too close to other elements on the page.
+        </p>
+        <div className="flex gap-5 items-end justify-center">
           <div className="flex flex-col gap-2 items-center p-5">
-            <Button className="p-1" variant="ghost" size="icon">
-              <AlertCircle className="w-10 h-10" stroke="red" />
-            </Button>
+            <AlertCircle className="w-8 h-8" stroke="red" />
             <span>Incorrect icon</span>
           </div>
           <div className="flex flex-col gap-2 items-center p-5">
-            <Button className="p-1" variant="ghost" size="icon">
-              <CheckCircle2 className="w-10 h-10" stroke="green" />
-            </Button>
+            <CheckCircle2 className="w-8 h-8" stroke="green" />
             <span>Correct icon</span>
           </div>
         </div>
       </section>
-      <section className="my-10">
+      <section className="py-10">
         <h2 className="text-4xl font-bold mb-3">Buttons</h2>
-        <p className="text-2xl"></p>
-        <div className="flex gap-5 items-center justify-center">
+        <p className=" mb-3">
+          In terms of padding, the padding will be 5px on the top, bottom and
+          left, right. The font size will be 24px inside the buttons. The
+          buttons will have a maximum width of 576px. The height will be 85px.
+          This ensures that our buttons are large enough to be easily clicked
+          and legible to our main target audience of 40 - 60 year old adults.
+        </p>
+        <div className="mt-10">
           <div className="flex flex-col gap-2 items-center p-5">
-            <Button className="w-[100px]">Next</Button>
+            <Button className="w-full max-w-xl text-xl py-10">Next</Button>
           </div>
           <div className="flex flex-col gap-2 items-center p-5">
-            <Button variant="secondary" className="w-[100px]">
+            <Button
+              variant="secondary"
+              className="w-full max-w-xl text-xl py-10"
+            >
               Previous
             </Button>
           </div>
 
           <div className="flex flex-col gap-2 items-center p-5">
-            <Button variant="destructive">Delete</Button>
+            <Button
+              variant="destructive"
+              className="w-full max-w-xl text-xl py-10"
+            >
+              Quit
+            </Button>
           </div>
         </div>
       </section>
-      <section className="my-10">
-        <h2 className="text-4xl font-bold mb-3">Quiz Answer Radio Group</h2>
-        <p className="text-2xl"></p>
-        <RadioGroup defaultValue="q1" className="p-10 justify-center gap-10">
-          <div className="flex items-center space-x-2">
+      <section className="py-10">
+        <h2 className="text-4xl font-bold mb-3">Quiz Answer Radio Cards</h2>
+        <p className=" mb-3">
+          The answer cards have have a max width of 576px. The font size for the
+          answers inside the answer cards is 24px. The answer cards have a
+          border to indicate the which area the user can click to select the
+          answer. The answer cards have a padding of 5px on the top, bottom,
+          left and right. The answer cards have a border radius of 8px. The
+          answer cards have a margin of 10px on the top and bottom. This ensures
+          that our answer cards are large enough to be easily clicked and
+          legible to our main target audience of 40 - 60 year old adults.
+        </p>
+        <RadioGroup defaultValue="q1" className="p-10 gap-5 mx-auto max-w-xl">
+          <div className="flex items-center space-x-8 border w-full max-w-xl pl-5 rounded-lg">
             <RadioGroupItem defaultChecked value="1" id="a1" />
-            <Label className="text-2xl" htmlFor="a1">
+            <Label className="text-2xl w-full py-5" htmlFor="a1">
               Answer 1
             </Label>
           </div>
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-8 border w-full max-w-xl pl-5 rounded-lg">
             <RadioGroupItem value="2" id="a2" />
-            <Label className="text-2xl" htmlFor="a2">
+            <Label className="text-2xl w-full py-5" htmlFor="a2">
               Answer 2
             </Label>
           </div>
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-8 border w-full max-w-xl  pl-5 rounded-lg">
             <RadioGroupItem value="3" id="a3" />
-            <Label className="text-2xl" htmlFor="a3">
+            <Label className="text-2xl w-full py-5" htmlFor="a3">
               Answer 3
             </Label>
           </div>
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-8 border w-full pl-5 max-w-xl rounded-lg">
             <RadioGroupItem value="4" id="a4" />
-            <Label className="text-2xl" htmlFor="a4">
+            <Label className="text-2xl w-full py-5" htmlFor="a4">
               Answer 4
             </Label>
           </div>
         </RadioGroup>
       </section>
-      <section className="my-10">
+      <section className="py-10">
         <h2 className="text-4xl font-bold mb-3">Form</h2>
-        <p className="text-2xl"></p>
-        <form className="space-y-3 max-w-xl mx-auto">
+        <p className="mb-3">
+          Font size in forms will be 16px to ensure that user can easily read
+          their inputs. The inputs will have a padding of 5px on the top, bottom
+          and left, right. The inputs will have a border radius of 8px. The
+          inputs will have a margin of 10px on the top and bottom. This ensures
+          that our inputs are large enough to be easily clicked and legible to
+          our main target audience of 40 - 60 year old adults.
+        </p>
+        <form className="space-y-3 max-w-xl mx-auto mt-10">
           <Input name="email" placeholder="Your Email" />
           <Textarea name="message" placeholder="Your Message" />
           <div className="flex">
-            <Button className="w-full">Send</Button>
+            <Button className="w-full max-w-xl text-xl py-10">Submit</Button>
           </div>
         </form>
       </section>
-      <section className="my-10">
+      <section className="py-10">
         <h2 className="text-4xl font-bold mb-3">Settings Input Control</h2>
-        <p className="text-2xl"></p>
-        <div className="flex items-center space-x-2 justify-center mt-5">
+        <p>
+          We want to ensure that settings can be easily adjusted so the labels
+          are provided for each control to ensure that user will be able to
+          understand what they do. The font size for the labels is 18px.
+        </p>
+        <div className="flex items-center space-x-2 justify-center mt-10">
           <Switch id="dark-mode" />
-          <Label htmlFor="dark-mode">Dark Mode</Label>
+          <Label htmlFor="dark-mode" className="text-lg">
+            Dark Mode
+          </Label>
         </div>
         <FontSlider />
       </section>

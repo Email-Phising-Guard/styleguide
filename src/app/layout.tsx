@@ -27,9 +27,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="flex justify-between items-center max-4xl mx-auto p-5">
+        <header className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto p-5 gap-5">
           <div>
-            <span>Email Phising Guard</span>
+            <span className="text-xl font-bold">Email Phising Guard</span>
           </div>
           <nav className="flex gap-2">
             <Link href="/logo">
