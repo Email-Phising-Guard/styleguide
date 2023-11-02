@@ -26,20 +26,20 @@ return (
       <div className="flex flex-row items-center">
         <Image 
         src={"/logoVariants2.svg"}
-        alt="Email Gurard Logo" 
+        alt="Email Guard Logo" 
         width={200}
         height={200}
         className="mx-auto"
         />
         <Image 
         src={"/logoVariant3.svg"}
-        alt="Email Gurard Logo" 
+        alt="Email Guard Logo" 
         width={200}
         height={200}
         className="mx-auto"
         /><Image 
         src={"/LogoVeritcalVariants4.svg"}
-        alt="Email Gurard Logo" 
+        alt="Email Guard Logo" 
         width={200}
         height={200}
         className="mx-auto"
@@ -80,7 +80,18 @@ return (
       <p className="">Black and White</p>
       <p className="">GrayScale</p>
 
+     
+
       </div>
+
+      <Image 
+      src={"/nameVariants.png"}
+      alt="different color variants" 
+      width={800}
+      height={800}
+      className="flex items-center mx-auto"
+      
+      />
 
 
       <div>
