@@ -9,7 +9,7 @@ import { AlertCircle, CheckCircle2, ChevronLeft, Settings } from "lucide-react";
 
 export default function IconsPage() {
   return (
-    <main className="max-w-4xl mx-auto p-10">
+    <main className="max-w-5xl mx-auto p-10">
       <section className="py-10">
         <h3 className="text-3xl font-bold mb-3">Clickable Icons</h3>
         <p className=" mb-3">
