@@ -82,19 +82,40 @@ return (
 
       </div>
 
-      <h2 className="text-6xl ">Clearance</h2>
-
-      <p className="text-lg">Acceptable clearance for the logos are listed below. No content may be within the clearance border in order to preserve logo integrity.</p>
-
-
 
       <div>
-      <h2 className="text-6xl ">Do</h2>
+      <h2 className="text-6xl ">Clearance</h2>
+      <p className="text-lg">Acceptable clearance for the logos are listed below. No content may be within the clearance border in order to preserve logo integrity.</p>
 
+      <Image 
+        src={"/logo.png"}
+        alt="Title" 
+        width={600}
+        height={600}
+        className="mx-auto"
+        />
+
+
+      <Image 
+        src={"/logoName.png"}
+        alt="Title" 
+        width={600}
+        height={600}
+        className="mx-auto"
+        />
+
+
+        
+      <Image 
+        src={"/title.png"}
+        alt="Title" 
+        width={600}
+        height={600}
+        className="mx-auto"
+        />
       </div>
 
 
-      <h2 className="text-6xl ">Dont</h2>
     </div>
   );
 }
