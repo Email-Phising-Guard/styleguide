@@ -4,6 +4,7 @@ import "./globals.css";
 
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Logo from "@/components/component/logo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,9 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto p-5 gap-5">
-          <div>
-            <span className="text-xl font-bold">Email Phising Guard</span>
-          </div>
+          <Logo />
           <nav className="flex gap-2">
             <Link href="/logo">
               <Button variant="ghost">Logo</Button>
