@@ -9,7 +9,7 @@ return (
     
        <h2 className="text-6xl my-6">Logo</h2>
 
-       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt commodi amet nobis sint eum asperiores repellat blanditiis aliquid dolore iusto. Odio neque fuga repellendus. Facere accusamus voluptas magnam! Ipsum, sit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt commodi amet nobis sint eum asperiores repellat blanditiis aliquid dolore iusto. Odio neque fuga repellendus. Facere accusamus voluptas magnam! Ipsum, sit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt commodi amet nobis sint eum asperiores repellat blanditiis aliquid dolore iusto. Odio neque fuga repellendus. Facere accusamus voluptas magnam! Ipsum, sit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt commodi amet nobis sint eum asperiores repellat blanditiis aliquid dolore iusto. Odio neque fuga repellendus. Facere accusamus voluptas magnam! Ipsum, sit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt commodi amet nobis sint eum asperiores repellat blanditiis aliquid dolore iusto. Odio neque fuga repellendus. Facere accusamus voluptas magnam! Ipsum, sit.</p>
+       <p className="text-2xl">In designing our logo, we prioritized simplicity and recognizability, ensuring it would resonate especially with our older demographic. The decision to use an email and a shield as primary symbols was made with a clear purpose in mind - to underline the core functionality of our application, which is to robustly safeguard emails against the threats of hackers and spam. We deliberately selected the color blue, a universal symbol of protection, to reinforce the essence of our logo. The font we chose for our wordmark, Inter, was no random choice either. Known for its adaptability across various screen sizes and resolutions, Inter ensures that our content maintains a high readability quotient on all devices. We believe these thoughtful choices make our logo not just visually appealing, but also a true representation of our applications purpose and functionality. </p>
 
        <Image 
        src={"/emailGurardLogo.svg"}
@@ -38,7 +38,7 @@ return (
         height={200}
         className="mx-auto"
         /><Image 
-        src={"/emailGurardLogo.svg"}
+        src={"/LogoVeritcalVariants4.svg"}
         alt="Email Gurard Logo" 
         width={200}
         height={200}
@@ -55,14 +55,18 @@ return (
         height={200}
         className="mx-auto"
         />
+
+
         <Image 
         src={"/blackAndWhite.svg"}
         alt="Email Gurard Logo" 
         width={200}
         height={200}
         className="mx-auto"
-        /><Image 
-        src={"/emailGurardLogo.svg"}
+        />
+
+        <Image 
+        src={"/blackAndWhite.svg"}
         alt="Email Gurard Logo" 
         width={200}
         height={200}
@@ -70,14 +74,24 @@ return (
         />
       </div>
 
-      <p>This will be all of the variants</p>
+
+      <div className="flex flex-row items-center gap-9">
+      <p className="">Full Color</p>
+      <p className="">Black and White</p>
+      <p className="">GrayScale</p>
+
+      </div>
 
       <h2 className="text-6xl ">Clearance</h2>
 
       <p className="text-lg">Acceptable clearance for the logos are listed below. No content may be within the clearance border in order to preserve logo integrity.</p>
 
 
+
+      <div>
       <h2 className="text-6xl ">Do</h2>
+
+      </div>
 
 
       <h2 className="text-6xl ">Dont</h2>
