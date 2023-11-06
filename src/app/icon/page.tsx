@@ -9,10 +9,11 @@ import { AlertCircle, CheckCircle2, ChevronLeft, Settings } from "lucide-react";
 
 export default function IconsPage() {
   return (
-    <main className="max-w-5xl mx-auto p-10">
+    <main className="max-w-5xl mt-10 mx-auto p-5">
+      <h1 className="text-4xl font-bold">Icons</h1>
       <section className="py-10">
-        <h3 className="text-3xl font-bold mb-3">Clickable Icons</h3>
-        <p className=" mb-3">
+        <h2 className="text-3xl font-bold mb-3">Clickable Icons</h2>
+        <p className="mb-3 text-xl">
           Clickable icons will be large (102px by 102px) to ensure that they
           will be able to easily clicked. Visible hover states will be added to
           the buttons to show feedback to the user that they can click on them.
@@ -35,7 +36,7 @@ export default function IconsPage() {
       </section>
       <section className="py-10">
         <h3 className="text-3xl font-bold mb-3">Visual Icons</h3>
-        <p className=" mb-3">
+        <p className="mb-3 text-xl">
           Visual icons will be 32px by 32px to ensure that they will be easily
           identifiable. The icons will have a padding of 5px all around to
           prevent the icons from being too close to other elements on the page.
@@ -52,8 +53,8 @@ export default function IconsPage() {
         </div>
       </section>
       <section className="py-10">
-        <h2 className="text-4xl font-bold mb-3">Buttons</h2>
-        <p className=" mb-3">
+        <h2 className="text-4xl font-bold mb-5">Buttons</h2>
+        <p className="mb-3 text-xl">
           In terms of padding, the padding will be 5px on the top, bottom and
           left, right. The font size will be 24px inside the buttons. The
           buttons will have a maximum width of 576px. The height will be 85px.
@@ -83,9 +84,9 @@ export default function IconsPage() {
           </div>
         </div>
       </section>
-      <section className="py-10">
-        <h2 className="text-4xl font-bold mb-3">Quiz Answer Radio Cards</h2>
-        <p className=" mb-3">
+      <section className="my-20">
+        <h2 className="text-4xl font-bold mb-5">Quiz Answer Radio Cards</h2>
+        <p className="mb-3 text-xl">
           The answer cards have have a max width of 576px. The font size for the
           answers inside the answer cards is 24px. The answer cards have a
           border to indicate the which area the user can click to select the
@@ -122,9 +123,9 @@ export default function IconsPage() {
           </div>
         </RadioGroup>
       </section>
-      <section className="py-10">
-        <h2 className="text-4xl font-bold mb-3">Form</h2>
-        <p className="mb-3">
+      <section className="my-20">
+        <h2 className="text-4xl font-bold mb-5">Form</h2>
+        <p className="mb-3 text-xl">
           Font size in forms will be 16px to ensure that user can easily read
           their inputs. The inputs will have a padding of 5px on the top, bottom
           and left, right. The inputs will have a border radius of 8px. The
@@ -140,9 +141,11 @@ export default function IconsPage() {
           </div>
         </form>
       </section>
-      <section className="py-10">
-        <h2 className="text-4xl font-bold mb-3">Settings Input Control</h2>
-        <p>
+      <section className="my-20">
+        <h2 className="text-4xl font-bold mb-5 mt-10">
+          Settings Input Control
+        </h2>
+        <p className="text-xl">
           We want to ensure that settings can be easily adjusted so the labels
           are provided for each control to ensure that user will be able to
           understand what they do. The font size for the labels is 18px.

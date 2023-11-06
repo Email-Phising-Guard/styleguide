@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function LogoPage() {
   return (
-    <div className="max-w-5xl mx-auto p-10">
+    <div className="max-w-5xl mx-auto p-5 mt-10">
       <h1 className="text-4xl font-bold mb-10">Logo</h1>
 
       <p className="text-xl">

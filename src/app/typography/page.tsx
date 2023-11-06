@@ -1,7 +1,6 @@
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableHead,
   TableHeader,
@@ -9,11 +8,10 @@ import {
 } from "@/components/ui/table";
 import Link from "next/link";
 import Image from "next/image";
-import { Italic } from "lucide-react";
 
 export default function TypographyPage() {
   return (
-    <div className="mb-24 mt-10 p-6 m-auto max-w-5xl z-0">
+    <div className="mb-24 mt-10 p-5 mx-auto max-w-5xl z-0">
       <h1 className="text-4xl font-bold">Typography</h1>
       <div className="my-10 text-lg flex flex-col gap-y-4">
         <p>
