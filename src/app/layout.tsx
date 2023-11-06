@@ -10,8 +10,8 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Email Phising Guard Style Guide",
-  description: "The style guide for Email Phising Guard",
+  title: "Email Guard Style Guide",
+  description: "The style guide for Email Guard",
 };
 
 export default function RootLayout({
