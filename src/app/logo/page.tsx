@@ -63,7 +63,7 @@ export default function LogoPage() {
             className="mx-auto"
           />
           <Image
-            src={"/logo/blackAndWhite.svg"}
+            src={"/logo/blackAndwhite.svg"}
             alt="Email Guard Logo"
             width={200}
             height={200}
@@ -80,7 +80,7 @@ export default function LogoPage() {
             className="mx-auto"
           />
           <Image
-            src={"/logo/blackAndWhite.svg"}
+            src={"/logo/blackAndwhite.svg"}
             alt="Email Guard Logo"
             width={200}
             height={200}

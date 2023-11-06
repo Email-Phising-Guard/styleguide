@@ -44,7 +44,7 @@ export default function TypographyPage() {
         </p>
         <div className="flex flex-col items-center p-5">
           <Image
-            src="/inter.png"
+            src="/typography/inter.png"
             alt="inter font"
             width={1000}
             height={1000}
