@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="max-w-4xl p-5 mx-auto mt-20 min-h-full flex items-center">
+    <main className="max-w-4xl p-5 mx-auto flex-1 flex items-center">
       <section>
         <h1 className="text-5xl font-bold text-center mb-5">
           Goodbye Email Phising
