@@ -15,7 +15,7 @@ export default function TypographyPage() {
       <h1 className="text-4xl font-bold">Typography</h1>
       <div className="my-10 text-lg flex flex-col gap-y-4">
         <p>
-          Our application, Email Phishing Guide, is designed to cater to a broad
+          Our application, Email Guard, is designed to cater to a broad
           audience, including elderly individuals who may{" "}
           <span style={{ fontStyle: "Italic" }}>not</span> be as tech-savvy. As
           an educational tool, our primary goal is to maintain simplicity and
