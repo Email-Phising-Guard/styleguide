@@ -21,22 +21,26 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto p-5 gap-5">
-          <Logo />
-          <nav className="flex gap-2">
-            <Link href="/logo">
-              <Button variant="ghost">Logo</Button>
+        <header className="border-b bg-slate-50 drop-shadow-xs">
+          <div className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto p-5 gap-5">
+            <Link href="/">
+              <Logo />
             </Link>
-            <Link href="/color">
-              <Button variant="ghost">Colors</Button>
-            </Link>
-            <Link href="/icon">
-              <Button variant="ghost">Icons</Button>
-            </Link>
-            <Link href="/typography">
-              <Button variant="ghost">Typography</Button>
-            </Link>
-          </nav>
+            <nav className="flex gap-2">
+              <Link href="/logo">
+                <Button variant="ghost">Logo</Button>
+              </Link>
+              <Link href="/color">
+                <Button variant="ghost">Colors</Button>
+              </Link>
+              <Link href="/icon">
+                <Button variant="ghost">Icons</Button>
+              </Link>
+              <Link href="/typography">
+                <Button variant="ghost">Typography</Button>
+              </Link>
+            </nav>
+          </div>
         </header>
         {children}
       </body>
