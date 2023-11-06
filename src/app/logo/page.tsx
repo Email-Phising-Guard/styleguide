@@ -20,16 +20,17 @@ export default function LogoPage() {
         visually appealing, but also a true representation of our applications
         purpose and functionality.{" "}
       </p>
+      <div className="border p-5 my-10">
+        <Image
+          src={"/emailGuardLogoMain.svg"}
+          alt="Email Guard Logo"
+          width={500}
+          height={500}
+          className="mx-auto my-20"
+        />
+      </div>
 
-      <Image
-        src={"/emailGuardLogo.svg"}
-        alt="Email Guard Logo"
-        width={800}
-        height={800}
-        className="mx-auto"
-      />
-
-      <h2 className="text-4xl font-bold mb-10">Variants</h2>
+      <h2 className="text-4xl font-bold mb-10 mt-20">Variants</h2>
       <p className="text-xl">
         Acceptable logo Variants: include logo and wordmark seperation,
         different logo style, and color variants
