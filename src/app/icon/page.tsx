@@ -84,7 +84,7 @@ export default function IconsPage() {
           </div>
         </div>
       </section>
-      <section className="my-20">
+      <section className="py-20">
         <h2 className="text-4xl font-bold mb-5">Quiz Answer Radio Cards</h2>
         <p className="mb-3 text-xl">
           The answer cards have have a max width of 576px. The font size for the
@@ -123,7 +123,7 @@ export default function IconsPage() {
           </div>
         </RadioGroup>
       </section>
-      <section className="my-20">
+      <section className="py-20">
         <h2 className="text-4xl font-bold mb-5">Form</h2>
         <p className="mb-3 text-xl">
           Font size in forms will be 16px to ensure that user can easily read
@@ -141,7 +141,7 @@ export default function IconsPage() {
           </div>
         </form>
       </section>
-      <section className="my-20">
+      <section className="py-20">
         <h2 className="text-4xl font-bold mb-5 mt-10">
           Settings Input Control
         </h2>
