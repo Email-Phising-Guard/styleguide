@@ -1,8 +1,8 @@
 export default function ColorIntro() {
   return (
-    <div className="max-w-5xl mx-auto space-y-12 my-24">
-      <h1 className="text-5xl font-bold tracking-wide">Colors</h1>
-      <p className="text-2xl tracking-wider">
+    <div className="max-w-5xl mx-auto space-y-12 mb-24 mt-10 p-5">
+      <h1 className="text-4xl font-bold">Colors</h1>
+      <p className="text-xl">
         We chose this color palette for Email Phishing because the color scheme
         develops a harmonious palette that conveys dependability and
         professionalism (blue) with a dash of urgency and excitement (red). The
