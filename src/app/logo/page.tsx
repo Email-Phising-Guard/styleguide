@@ -22,7 +22,7 @@ export default function LogoPage() {
       </p>
       <div className="border p-5 my-10">
         <Image
-          src={"/emailGuardLogoMain.svg"}
+          src={"/logo/emailGuardLogoMain.svg"}
           alt="Email Guard Logo"
           width={500}
           height={500}
@@ -39,14 +39,14 @@ export default function LogoPage() {
       <div className="flex flex-wrap justify-center">
         <div className="flex flex-col items-center p-5 gap-2">
           <Image
-            src={"/logoVariants2.svg"}
+            src={"/logo/logoVariants2.svg"}
             alt="Email Guard Logo"
             width={200}
             height={200}
             className="mx-auto"
           />
           <Image
-            src={"/ShieldSendLogo.svg"}
+            src={"/logo/ShieldSendLogo.svg"}
             alt="Email Guard Logo"
             width={200}
             height={200}
@@ -56,14 +56,14 @@ export default function LogoPage() {
         </div>
         <div className="flex flex-col items-center p-5 gap-2">
           <Image
-            src={"/logoVariant3.svg"}
+            src={"/logo/logoVariant3.svg"}
             alt="Email Guard Logo"
             width={200}
             height={200}
             className="mx-auto"
           />
           <Image
-            src={"/blackAndWhite.svg"}
+            src={"/logo/blackAndWhite.svg"}
             alt="Email Guard Logo"
             width={200}
             height={200}
@@ -73,14 +73,14 @@ export default function LogoPage() {
         </div>
         <div className="flex flex-col items-center p-5 gap-2">
           <Image
-            src={"/LogoVeritcalVariants4.svg"}
+            src={"/logo/LogoVeritcalVariants4.svg"}
             alt="Email Guard Logo"
             width={200}
             height={200}
             className="mx-auto"
           />
           <Image
-            src={"/blackAndWhite.svg"}
+            src={"/logo/blackAndWhite.svg"}
             alt="Email Guard Logo"
             width={200}
             height={200}
@@ -91,7 +91,7 @@ export default function LogoPage() {
       </div>
 
       <Image
-        src={"/nameVariants.png"}
+        src={"/logo/nameVariants.png"}
         alt="different color variants"
         width={800}
         height={800}
@@ -99,7 +99,7 @@ export default function LogoPage() {
       />
       <p className="font-bold text-center">Wordmark variants</p>
 
-      <div>
+      <div className="pb-20">
         <h2 className="text-4xl font-bold mb-10 mt-20">Clearance</h2>
         <p className="text-xl">
           Acceptable clearance for the logos are listed below. No content may be
@@ -107,7 +107,7 @@ export default function LogoPage() {
         </p>
         <div className="space-y-12">
           <Image
-            src={"/logo.png"}
+            src={"/logo/logo.png"}
             alt="Title"
             width={600}
             height={600}
@@ -115,7 +115,7 @@ export default function LogoPage() {
           />
 
           <Image
-            src={"/logoName.png"}
+            src={"/logo/logoName.png"}
             alt="Title"
             width={600}
             height={600}
@@ -123,7 +123,7 @@ export default function LogoPage() {
           />
 
           <Image
-            src={"/title.png"}
+            src={"/logo/title.png"}
             alt="Title"
             width={600}
             height={600}
