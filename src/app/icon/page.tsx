@@ -15,7 +15,7 @@ export default function IconsPage() {
         The icons we are using are from the Lucide icon library.{"  "}
         <a
           href="https://lucide.dev/"
-          className="text-primary hover:border-b border-primary"
+          className="text-primary hover:border-b hover:border-primary"
         >
           Lucide
         </a>{" "}
