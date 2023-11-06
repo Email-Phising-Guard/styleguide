@@ -10,7 +10,22 @@ import { AlertCircle, CheckCircle2, ChevronLeft, Settings } from "lucide-react";
 export default function IconsPage() {
   return (
     <main className="max-w-5xl mt-10 mx-auto p-5">
-      <h1 className="text-4xl font-bold">Icons</h1>
+      <h1 className="text-4xl font-bold mb-5">Icons</h1>
+      <p className="text-xl mb-3">
+        The icons we are using are from the Lucide icon library.{"  "}
+        <a
+          href="https://lucide.dev/"
+          className="text-primary hover:border-b hover:border-primary"
+        >
+          Lucide
+        </a>{" "}
+        is a free and open-source icon set made by the Lucide Team. These icons
+        are known for their simplicity and clarity, making them ideal for
+        conveying information or functionality without clutter. Lucide icons are
+        typically vector-based, allowing for scalability and customization, and
+        they often come in a variety of styles and categories to suit different
+        design needs.
+      </p>
       <section className="py-10">
         <h2 className="text-3xl font-bold mb-3">Clickable Icons</h2>
         <p className="mb-3 text-xl">

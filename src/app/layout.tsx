@@ -40,6 +40,9 @@ export default function RootLayout({
               <Link href="/typography">
                 <Button variant="ghost">Typography</Button>
               </Link>
+              <Link href="/references">
+                <Button variant="ghost">References</Button>
+              </Link>
             </nav>
           </div>
         </header>

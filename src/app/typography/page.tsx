@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function TypographyPage() {
   return (
-    <div className="mb-24 mt-10 p-5 mx-auto max-w-5xl z-0">
+    <main className="mb-24 mt-10 p-5 mx-auto max-w-5xl z-0">
       <h1 className="text-4xl font-bold">Typography</h1>
       <div className="my-10 text-lg flex flex-col gap-y-4">
         <p>
@@ -119,6 +119,6 @@ export default function TypographyPage() {
           </TableRow>
         </TableBody>
       </Table>
-    </div>
+    </main>
   );
 }
